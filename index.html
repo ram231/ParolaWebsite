@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Parola</title>
+    <meta name="description" content="An event based attendance using Beacon Technology">
+    
+    
+    <link rel="preload" href="/assets/css/styles.bf0defee.css" as="style"><link rel="preload" href="/assets/js/app.bf0defee.js" as="script"><link rel="preload" href="/assets/js/6.5a8622df.js" as="script"><link rel="prefetch" href="/assets/css/1.styles.254a6562.css"><link rel="prefetch" href="/assets/js/1.254a6562.js"><link rel="prefetch" href="/assets/css/2.styles.6825f9f6.css"><link rel="prefetch" href="/assets/js/2.6825f9f6.js"><link rel="prefetch" href="/assets/js/3.97f503f6.js"><link rel="prefetch" href="/assets/js/4.cf2d9d69.js"><link rel="prefetch" href="/assets/js/5.6f1266ad.js"><link rel="prefetch" href="/assets/js/7.6916c394.js">
+    <link rel="stylesheet" href="/assets/css/1.styles.254a6562.css"><link rel="stylesheet" href="/assets/css/styles.bf0defee.css"><link rel="stylesheet" href="/assets/css/2.styles.6825f9f6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">Parola</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/ram231/Parola" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/ram231/Parola" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>Home</span> <!----></p> <ul class="sidebar-group-items"></ul></div></li></ul> </div> <div class="home"><div class="hero"><img src="images/hero.png" alt="hero"> <h1>Parola</h1> <p class="description">
+      An event based attendance using Beacon Technology
+    </p> <p class="action"><a href="/guide/" class="nav-link action-button">Get Started →</a></p></div> <div class="features"><div class="feature"><h2>Beacon Compatibility</h2> <p>Parola was design for attendance based so that recording of attendance will be fast as blazing as existing technology. Parola is compatible as long as iBeacon or Eddystone is supported.</p></div><div class="feature"><h2>Cross-Platform</h2> <p>Parola can be implemented for both androi and iOS. Although it is fully implemented in Android devices. The configuration for iOS is complex and therefore discontinued the release build.</p></div><div class="feature"><h2>Open Source</h2> <p>Parola is Open source and the source code will always be free for developers. It is poorly optimized due to time constraint and refactoring is just time consuming.</p></div></div> <div class="content custom"><h1 id="introduction-to-parola"><a href="#introduction-to-parola" aria-hidden="true" class="header-anchor">#</a> Introduction to Parola</h1> <blockquote><p>The language we are using is <strong><code>Dart</code></strong>, but the code is readable to any experienced developers.</p></blockquote> <div class="language-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span> <span class="token comment">// Import Material Design Template</span>
+
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// Main entry point of the program</span>
+     <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">MyHomePage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Flutter's entry point to widgets</span>
+    <span class="token punctuation">}</span>
+<span class="token keyword">class</span> <span class="token class-name">MyHomePage</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span><span class="token punctuation">{</span>
+    <span class="token metadata symbol">@override</span>
+    Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+            child<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span><span class="token string">&quot;Hello World&quot;</span><span class="token punctuation">)</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div></div> <div class="footer">
+    MIT Licensed | Copyright © 2018-present Vince Ramces Oliveros
+  </div></div> <!----></div></div>
+    <script src="/assets/js/6.5a8622df.js" defer></script><script src="/assets/js/app.bf0defee.js" defer></script>
+  </body>
+</html>
